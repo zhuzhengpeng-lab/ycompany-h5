@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>太原言人知企业管理咨询有限公司</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    /* 容器：居中+留白 */
+    .container {
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    /* 顶部Logo区域 */
+    .header {
+      padding: 60px 0 40px;
+      text-align: center;
+    }
+    .company-name {
+      font-size: 28px;
+      font-weight: 600;
+      color: #2d3748;
+      margin-bottom: 8px;
+    }
+    .establish-time {
+      font-size: 16px;
+      color: #718096;
+    }
+    /* 核心理念 */
+    .core-value {
+      background-color: #4a5568;
+      color: #fff;
+      padding: 30px 20px;
+      border-radius: 12px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .value-title {
+      font-size: 18px;
+      margin-bottom: 12px;
+      opacity: 0.9;
+    }
+    .value-content {
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: 2px;
+    }
+    /* 公司介绍文本 */
+    .intro {
+      font-size: 16px;
+      color: #4a5568;
+      line-height: 1.8;
+      margin-bottom: 60px;
+      text-align: justify;
+    }
+    /* 底部信息 */
+    .footer {
+      padding: 30px 0;
+      border-top: 1px solid #e2e8f0;
+      text-align: center;
+      font-size: 14px;
+      color: #718096;
+    }
+    /* 滚动渐显动画（提升质感） */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .header, .core-value, .intro, .footer {
+      animation: fadeIn 0.8s ease-out forwards;
+    }
+    .core-value { animation-delay: 0.2s; opacity: 0; }
+    .intro { animation-delay: 0.4s; opacity: 0; }
+    .footer { animation-delay: 0.6s; opacity: 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- 顶部公司名称+成立时间 -->
+    <div class="header">
+      <h1 class="company-name">太原言人知企业管理咨询有限公司</h1>
+      <div class="establish-time">成立于 2024 年</div>
+    </div>
+
+    <!-- 核心理念 -->
+    <div class="core-value">
+      <div class="value-title">核心理念</div>
+      <div class="value-content">专业赋能 · 价值创造</div>
+    </div>
+
+    <!-- 公司介绍详情 -->
+    <div class="intro">
+      公司聚焦企业全生命周期发展需求，提供多元化、专业化的综合服务。凭借资深的行业经验、专业的服务团队，致力于为不同规模、不同行业的客户提供定制化解决方案，助力企业在激烈的市场竞争中实现可持续发展，为区域经济发展与企业成长贡献专业力量。
+    </div>
+
+    <!-- 底部占位（保持简洁） -->
+    <div class="footer">
+      © 2025 太原言人知企业管理咨询有限公司 版权所有
+    </div>
+  </div>
+</body>
+</html>
